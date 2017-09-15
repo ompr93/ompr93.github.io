@@ -1,5 +1,132 @@
 @import 'mmcss/src/mm';
 
-.page-content {
-  min-height: 60vh;
+.header {
+  text-align: left;
+  height: auto;
+  border: 0;
+}
+
+@media only screen and (min-width: 760px) {
+  .container-content {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 760px) {
+  .name {
+    color: #38473a;
+    font-size: 84px;
+    text-transform: uppercase;
+    margin-top: 3rem;
+  }
+}
+
+.job-title {
+  color: #38473a;
+  letter-spacing: 5px;
+  margin-top: 0;
+}
+
+.content {
+  margin-bottom: 1rem;
+}
+
+.bare {
+  margin-left: 2rem;
+  /*text-transform: uppercase;*/
+}
+
+h3 {
+  margin-left: 2rem;
+  position: relative;
+  margin-top: 2rem;
+}
+
+h3 .bullet {
+  position: absolute;
+  left: -34px;
+  color: #38473a;
+}
+
+.language {
+  font-size: 10px
+}
+
+.sub-heading {
+  background-color: #ddd;
+}
+
+.sub-heading-content {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.experience {
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.experience-detail {
+  margin-left: 7rem;
+  font-size: 14px;
+}
+
+.education-detail {
+  margin-left: 7rem;
+  font-size: 14px;
+}
+
+.designation {
+  margin-left: 7rem;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.skill-text {
+  display: inline-block;
+  width: 30%;
+}
+
+.skill {
+  width: 65%;
+  height: 5px;
+  background-color: #bbb;
+  display: inline-block;
+}
+
+.skill-bar {
+  height: 5px;
+  background-color: #38473a;
+}
+
+.education {
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 760px) {
+  .education {
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.heading-text-color {
+  color: #38473a;
+}
+
+.body {
+  margin-bottom: 5rem;
 }
