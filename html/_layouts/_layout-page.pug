@@ -1,0 +1,8 @@
+extends ./_layout-default.pug
+
+block content
+  article
+    .container-readable
+      .text-center
+        h1 #{page.title}
+    .container-readable!= page.content

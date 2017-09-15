@@ -1,0 +1,27 @@
+extends ./_layout-root.pug
+
+block header
+  header.header
+    .container-content
+      .header-left
+        .site-branding
+          h1.title
+            a(href="/")= site.title
+      .menu-toggle
+        input(type="checkbox")#menu-toggle
+        label(for="menu-toggle").header-right
+          span.css-icon-hamburger
+            span Toggle
+          span Menu
+        .menu-toggle-content            
+          .header-right
+            +menu(data.menu.main, 'menu')
+
+block footer
+  footer.footer
+    .container
+      .section
+        p.text-center &copy; <a href="#{site.base + '/'}">#{site.title}</a> - Built with <a href="https://mmpilot.kunruchcreations.com/" target="_blank">MMPilot</a>
+
+block content
+  .container-readable!= page.content
