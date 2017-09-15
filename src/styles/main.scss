@@ -85,6 +85,13 @@ h3 .bullet {
 .skill-bar {
   height: 5px;
   background-color: #38473a;
+  transform: scaleX(0);
+  transition: transform 2s ease-in-out;
+  transform-origin: 0% 0%;
+}
+
+.skill-bar-full {
+  transform: scaleX(1);
 }
 
 .experience {
