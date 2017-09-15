@@ -5,6 +5,9 @@
   height: auto;
   border: 0;
 }
+.heading-text-color {
+  color: #38473a;
+}
 
 @media only screen and (min-width: 760px) {
   .container-content {
@@ -23,7 +26,6 @@
   .name {
     color: #38473a;
     font-size: 84px;
-    text-transform: uppercase;
     margin-top: 3rem;
   }
 }
@@ -40,7 +42,6 @@
 
 .bare {
   margin-left: 2rem;
-  /*text-transform: uppercase;*/
 }
 
 h3 {
@@ -69,29 +70,6 @@ h3 .bullet {
   padding-top: 0;
 }
 
-
-.experience {
-  margin-left: 2rem;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.experience-detail {
-  margin-left: 7rem;
-  font-size: 14px;
-}
-
-.education-detail {
-  margin-left: 7rem;
-  font-size: 14px;
-}
-
-.designation {
-  margin-left: 7rem;
-  font-size: 14px;
-  font-style: italic;
-}
-
 .skill-text {
   display: inline-block;
   width: 30%;
@@ -109,23 +87,38 @@ h3 .bullet {
   background-color: #38473a;
 }
 
+.experience {
+  margin-left: 2.3rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.experience-detail {
+  margin-left: 7rem;
+  font-size: 14px;
+}
+
+.designation {
+  margin-left: 7rem;
+  font-size: 14px;
+  font-style: italic;
+}
+.education-detail {
+  margin-left: 7rem;
+  font-size: 14px;
+}
+
 .education {
-  margin-left: 2rem;
+  margin-left: 2.3rem;
   font-weight: bold;
   font-size: 12px;
 }
-
 @media only screen and (min-width: 760px) {
   .education {
-    margin-left: 2rem;
-    font-weight: bold;
     font-size: 16px;
   }
 }
 
-.heading-text-color {
-  color: #38473a;
-}
 
 .body {
   margin-bottom: 5rem;
